@@ -14,8 +14,8 @@ function maps(x){
       return x
 }
 
-function maps(x) {
-    return x.map(function (x) {
-        return x * 2;
+function maps(arr) {
+    return arr.map(function (el) {
+        return el * 2;
     });
 }
